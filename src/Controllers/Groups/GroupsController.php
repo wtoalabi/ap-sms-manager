@@ -4,14 +4,14 @@
 	 * Date: 18/07/2020
 	 */
 	
-	namespace App\Controllers\Groups;
+	namespace AppsBay\Controllers\Groups;
 	
 	
-	use App\Models\Base\DataResponse;
-	use App\Models\Contacts\Contact;
-	use App\Models\Contacts\ContactsCollection;
-	use App\Models\Groups\Group;
-	use App\Models\Groups\GroupsCollection;
+	use AppsBay\Models\Base\DataResponse;
+	use AppsBay\Models\Contacts\Contact;
+	use AppsBay\Models\Contacts\ContactsCollection;
+	use AppsBay\Models\Groups\Group;
+	use AppsBay\Models\Groups\GroupsCollection;
 	
 	class GroupsController {
 		public function index( $request ) {

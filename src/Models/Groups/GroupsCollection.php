@@ -4,7 +4,7 @@
 	 * Date: 13/07/2020
 	 */
 	
-	namespace App\Models\Groups;
+	namespace AppsBay\Models\Groups;
 	
 	
 	class GroupsCollection {

@@ -4,9 +4,9 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Controllers\Gateways\SDK;
+	namespace AppsBay\Controllers\Gateways\SDK;
 	
-	use App\Controllers\Gateways\GatewaysInterface;
+	use AppsBay\Controllers\Gateways\GatewaysInterface;
 	use AfricasTalking\SDK\AfricasTalking;
 	class AfrikasTalkingAPI implements GatewaysInterface {
 		

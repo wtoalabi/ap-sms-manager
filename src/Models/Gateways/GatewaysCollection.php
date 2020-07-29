@@ -4,7 +4,7 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Models\Gateways;
+	namespace AppsBay\Models\Gateways;
 	
 	
 	class GatewaysCollection {

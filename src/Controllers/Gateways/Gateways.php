@@ -4,13 +4,13 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Controllers\Gateways;
+	namespace AppsBay\Controllers\Gateways;
 	
 	
-	use App\Controllers\Gateways\SDK\AfrikasTalkingAPI;
-	use App\Controllers\Gateways\SDK\NexmoAPI;
-	use App\Controllers\Gateways\SDK\TelnyxAPI;
-	use App\Controllers\Gateways\SDK\TwilioAPI;
+	use AppsBay\Controllers\Gateways\SDK\AfrikasTalkingAPI;
+	use AppsBay\Controllers\Gateways\SDK\NexmoAPI;
+	use AppsBay\Controllers\Gateways\SDK\TelnyxAPI;
+	use AppsBay\Controllers\Gateways\SDK\TwilioAPI;
 	
 	class Gateways {
 		public static $gateways = [

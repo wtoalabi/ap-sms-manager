@@ -1,7 +1,7 @@
 <?php
 	
-	namespace App\Models\Base;
-	use App\Models\Base\CustomQuery;
+	namespace AppsBay\Models\Base;
+	use AppsBay\Models\Base\CustomQuery;
 	use Illuminate\Database\Eloquent\Model;
 	
 	/**

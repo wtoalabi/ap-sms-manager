@@ -4,7 +4,7 @@
 	 * Date: 08/07/2020
 	 */
 	
-	namespace App\Core\Configs;
+	namespace AppsBay\Core\Configs;
 	
 	
 	use WP_REST_Server;

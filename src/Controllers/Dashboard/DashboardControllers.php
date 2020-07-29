@@ -4,13 +4,13 @@
 	 * Date: 08/07/2020
 	 */
 	
-	namespace App\Controllers\Dashboard;
+	namespace AppsBay\Controllers\Dashboard;
 	
-	use App\Controllers\Controller;
-	use App\Models\Contacts\Contact;
-	use App\Models\Contacts\ContactResource;
-	use App\Models\Contacts\ContactsCollection;
-	use App\Models\Groups\Group;
+	use AppsBay\Controllers\Controller;
+	use AppsBay\Models\Contacts\Contact;
+	use AppsBay\Models\Contacts\ContactResource;
+	use AppsBay\Models\Contacts\ContactsCollection;
+	use AppsBay\Models\Groups\Group;
 	use Illuminate\Database\Capsule\Manager as Capsule;
 	use League\Fractal\Manager;
 	use League\Fractal\Resource\Collection;

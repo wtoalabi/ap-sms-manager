@@ -4,11 +4,11 @@
 	 * Date: 21/07/2020
 	 */
 	
-	namespace App\Models\Messages;
+	namespace AppsBay\Models\Messages;
 	
 	
-	use App\Models\Base\BaseModel;
-	use App\Models\Gateways\Gateway;
+	use AppsBay\Models\Base\BaseModel;
+	use AppsBay\Models\Gateways\Gateway;
 	
 	class Message extends BaseModel {
 		protected $fillable = ['gateway_id','senderID','status','response','recipientsCount','groups','message','time','metaData'];

@@ -4,7 +4,7 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Models\Base;
+	namespace AppsBay\Models\Base;
 	
 	use App\Models\Contacts\ContactsCollection;
 	use WP_Error;

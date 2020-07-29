@@ -4,7 +4,7 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Controllers\Gateways;
+	namespace AppsBay\Controllers\Gateways;
 	
 	
 	interface GatewaysInterface {

@@ -4,12 +4,12 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Controllers\Settings;
+	namespace AppsBay\Controllers\Settings;
 	
 	
-	use App\Models\Base\DataResponse;
-	use App\Models\Settings\Setting;
-	use App\Models\Settings\SettingResource;
+	use AppsBay\Models\Base\DataResponse;
+	use AppsBay\Models\Settings\Setting;
+	use AppsBay\Models\Settings\SettingResource;
 	
 	class SettingsControllers {
 		public function index( ) {

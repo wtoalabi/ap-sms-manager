@@ -7,7 +7,7 @@
 	namespace App\DB\Migrations;
 	
 	
-	use App\Models\Groups\Group;
+	use AppsBay\Models\Groups\Group;
 	
 	class SeedData {
 		public static function Run() {

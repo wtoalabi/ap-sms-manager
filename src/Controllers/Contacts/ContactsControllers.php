@@ -4,12 +4,12 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Controllers\Contacts;
+	namespace AppsBay\Controllers\Contacts;
 	
-	use App\Controllers\Contacts\Syncs\Woocommerce;
-	use App\Models\Base\DataResponse;
-	use App\Models\Contacts\Contact;
-	use App\Models\Contacts\ContactsCollection;
+	use AppsBay\Controllers\Contacts\Syncs\Woocommerce;
+	use AppsBay\Models\Base\DataResponse;
+	use AppsBay\Models\Contacts\Contact;
+	use AppsBay\Models\Contacts\ContactsCollection;
 	
 	class ContactsControllers {
 		public function index( $request ) {

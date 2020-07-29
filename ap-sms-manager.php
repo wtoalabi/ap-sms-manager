@@ -12,9 +12,11 @@
 	 */
 	require __DIR__ . '/vendor/autoload.php';
 	
-	use App\Core\Configs\Instance;
 	
-	\Config\doOrDie();
+	use AppsBay\Core\Configs\Instance;
+	use function AppsBay_Main_Config\doOrDie;
+	
+	doOrDie();
 	/*This is the entry point*/
 	
 	appsbay_sms_manager_main_initialize();
@@ -24,7 +26,7 @@
 	function appsbay_sms_manager_main_initialize() {
 		/*Let there be light. This is where we bootstrap the app.*/
 		Instance::InitiateDB();
-		add_action( 'init', [ "App\Core\Configs\Instance", "Initialize" ] );
+		add_action( 'init', [ "AppsBay\Core\Configs\Instance", "Initialize" ] );
 	}
 	
 	function appsbay_sms_manager_main_activate() {

@@ -28,7 +28,7 @@
       "config.php"
     ],
     "psr-4": {
-      "App\\": "src"
+      "AppsBay\\": "src"
     }
   },
   "scripts": {

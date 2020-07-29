@@ -4,10 +4,10 @@
 	 * Date: 08/07/2020
 	 */
 	
-	namespace App\Core\Configs;
+	namespace AppsBay\Core\Configs;
 	
-	use App\Core\Hooks\Hooks;
-	use App\DB\Migrations\Migration;
+	use AppsBay\Core\Hooks\Hooks;
+	use AppsBay\DB\Migrations\Migration;
 	use Illuminate\Database\Capsule\Manager as Capsule;
 	use Illuminate\Events\Dispatcher;
 	use Illuminate\Container\Container;

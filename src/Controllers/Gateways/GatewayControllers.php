@@ -4,11 +4,11 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Controllers\Gateways;
+	namespace AppsBay\Controllers\Gateways;
 	
-	use App\Models\Base\DataResponse;
-	use App\Models\Gateways\Gateway;
-	use App\Models\Gateways\GatewaysCollection;
+	use AppsBay\Models\Base\DataResponse;
+	use AppsBay\Models\Gateways\Gateway;
+	use AppsBay\Models\Gateways\GatewaysCollection;
 	
 	class GatewayControllers {
 		

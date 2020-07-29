@@ -1,6 +1,6 @@
 <?php
 	
-	namespace App\DB\Migrations;
+	namespace AppsBay\DB\Migrations;
 	use Illuminate\Database\Capsule\Manager as Capsule;
 	
 	

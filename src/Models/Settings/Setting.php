@@ -1,7 +1,7 @@
 <?php
 	
-	namespace App\Models\Settings;
-	use App\Models\Base\BaseModel;
+	namespace AppsBay\Models\Settings;
+	use AppsBay\Models\Base\BaseModel;
 	
 	class Setting extends BaseModel {
 		protected $fillable = ['settings'];

@@ -4,7 +4,7 @@
 	 * Date: 08/07/2020
 	 */
 	
-	namespace App\Core\Hooks;
+	namespace AppsBay\Core\Hooks;
 	
 	
 	class Locale {

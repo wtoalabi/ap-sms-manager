@@ -4,11 +4,11 @@
 	 * Date: 19/07/2020
 	 */
 	
-	namespace App\Models\Gateways;
+	namespace AppsBay\Models\Gateways;
 	
 	
-	use App\Models\Base\BaseModel;
-	use App\Models\Messages\Message;
+	use AppsBay\Models\Base\BaseModel;
+	use AppsBay\Models\Messages\Message;
 	
 	class Gateway extends BaseModel {
 		protected $fillable = ['name','description', 'apiName','apiKey','username','metaData','isDefault'];

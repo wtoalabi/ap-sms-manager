@@ -5,7 +5,7 @@
 		$config = [
 			"plugin_version" => "0.0.1",
 			"rest_namespace" => "apps_bay/v1",
-			"controllers_path" => "App\Controllers",
+			"controllers_path" => "AppsBay\Controllers",
 			"rest_url" => site_url(). "/?rest_route=/",
 			"admin_url" => admin_url(),
 			"plugin" => plugin_basename( __DIR__ ),

@@ -4,7 +4,7 @@
 	 * Date: 21/07/2020
 	 */
 	
-	namespace App\Models\Messages;
+	namespace AppsBay\Models\Messages;
 	use Carbon\Carbon;
 	
 	

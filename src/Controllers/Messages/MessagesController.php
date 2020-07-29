@@ -4,15 +4,15 @@
 	 * Date: 21/07/2020
 	 */
 	
-	namespace App\Controllers\Messages;
+	namespace AppsBay\Controllers\Messages;
 	
 	
-	use App\Controllers\Gateways\Gateways;
-	use App\Models\Base\DataResponse;
-	use App\Models\Gateways\Gateway;
-	use App\Models\Groups\Group;
-	use App\Models\Messages\Message;
-	use App\Models\Messages\MessagesCollection;
+	use AppsBay\Controllers\Gateways\Gateways;
+	use AppsBay\Models\Base\DataResponse;
+	use AppsBay\Models\Gateways\Gateway;
+	use AppsBay\Models\Groups\Group;
+	use AppsBay\Models\Messages\Message;
+	use AppsBay\Models\Messages\MessagesCollection;
 	
 	class MessagesController {
 		public function index( $request ) {

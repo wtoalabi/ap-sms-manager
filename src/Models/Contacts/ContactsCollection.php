@@ -4,7 +4,7 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Models\Contacts;
+	namespace AppsBay\Models\Contacts;
 	
 	class ContactsCollection {
 		public static function Collect( $collection ) {

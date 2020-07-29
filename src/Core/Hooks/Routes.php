@@ -4,10 +4,9 @@
 	 * Date: 08/07/2020
 	 */
 	
-	namespace App\Core\Hooks;
+	namespace AppsBay\Core\Hooks;
 	
-	use App\Core\Configs\Router;
-	use Globals;
+	use AppsBay\Core\Configs\Router;
 	use function AppsBay_Main_Config\config;
 	
 	class Routes {

@@ -1,8 +1,8 @@
 <?php
 	
-	namespace App\Models\Contacts;
-	use App\Models\Base\BaseModel;
-	use App\Models\Groups\Group;
+	namespace AppsBay\Models\Contacts;
+	use AppsBay\Models\Base\BaseModel;
+	use AppsBay\Models\Groups\Group;
 	use Illuminate\Database\Eloquent\Model;
 	
 	/**

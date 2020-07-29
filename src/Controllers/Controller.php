@@ -4,9 +4,9 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Controllers;
+	namespace AppsBay\Controllers;
 	
-	use App\Models\Contacts\Transformer;
+	use AppsBay\Models\Contacts\Transformer;
 	use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 	use League\Fractal\Serializer\JsonApiSerializer;
 	use Spatie\Fractalistic\Fractal;

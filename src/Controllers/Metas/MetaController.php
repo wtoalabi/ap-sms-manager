@@ -4,17 +4,17 @@
 	 * Date: 13/07/2020
 	 */
 	
-	namespace App\Controllers\Metas;
+	namespace AppsBay\Controllers\Metas;
 	
 	
-	use App\Models\Contacts\Contact;
-	use App\Models\Gateways\Gateway;
-	use App\Models\Gateways\GatewaysCollection;
-	use App\Models\Groups\GroupsCollection;
-	use App\Models\Messages\Message;
-	use App\Models\Settings\Setting;
-	use App\Models\Groups\Group;
-	use App\Models\Settings\SettingResource;
+	use AppsBay\Models\Contacts\Contact;
+	use AppsBay\Models\Gateways\Gateway;
+	use AppsBay\Models\Gateways\GatewaysCollection;
+	use AppsBay\Models\Groups\GroupsCollection;
+	use AppsBay\Models\Messages\Message;
+	use AppsBay\Models\Settings\Setting;
+	use AppsBay\Models\Groups\Group;
+	use AppsBay\Models\Settings\SettingResource;
 	use Carbon\Carbon;
 	use WP_REST_Response;
 	

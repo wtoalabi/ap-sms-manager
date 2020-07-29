@@ -4,8 +4,8 @@
 	 * Date: 12/07/2020
 	 */
 	
-	namespace App\Models\Contacts;
-	use App\Models\Groups\GroupResource;
+	namespace AppsBay\Models\Contacts;
+	use AppsBay\Models\Groups\GroupResource;
 	
 	class ContactResource {
 		public function transform( $contact ) {

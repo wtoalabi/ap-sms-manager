@@ -4,12 +4,12 @@
 	 * Date: 16/07/2020
 	 */
 	
-	namespace App\Controllers\Contacts\Syncs;
+	namespace AppsBay\Controllers\Contacts\Syncs;
 	
 	
-	use App\Controllers\Contacts\ContactsControllers;
-	use App\Models\Contacts\Contact;
-	use App\Models\Wp\PostMeta;
+	use AppsBay\Controllers\Contacts\ContactsControllers;
+	use AppsBay\Models\Contacts\Contact;
+	use AppsBay\Models\Wp\PostMeta;
 	use Illuminate\Database\Capsule\Manager as Capsule;
 	use Illuminate\Support\Facades\DB;
 	

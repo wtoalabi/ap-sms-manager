@@ -4,7 +4,7 @@
 	 * Date: 11/07/2020
 	 */
 	
-	namespace App\DB\Migrations;
+	namespace AppsBay\DB\Migrations;
 	use Illuminate\Database\Capsule\Manager as Capsule;
 	use Illuminate\Database\Schema\Blueprint;
 	
