@@ -13,7 +13,6 @@ class Styles {
 		$name    = config( 'plugin' ) . '_apps_bay_sms';
 		$version = config( 'plugin_version' );
 		$path    = config( 'plugin_assets' ) . 'styles/app.css';
-		wp_enqueue_style( 'appsbay_icons', '//cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css', array(), $version, 'all' );
 		wp_enqueue_style( $name, $path, array(), $version, 'all' );
 	}
 }
