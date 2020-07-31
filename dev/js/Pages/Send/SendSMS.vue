@@ -51,7 +51,7 @@
                         <!--<schedule :disabled="!gatewayCanSchedule" @date_time="setDateTime"/>-->
                         <v-progress-linear
                                 class="progress"
-                                v-if="loading"
+                                v-if="messageIsSending"
                                 indeterminate
                                 color="success"
                         ></v-progress-linear>
@@ -125,8 +125,8 @@
                 this.form.recipients.manual = contacts.numbers;
             },
             selectedGroup(groups) {
+                this.selectedGroupIDs = groups;
                 if (aps_globals._.isNotEmpty(groups)) {
-                    this.selectedGroupIDs = groups;
                     this.form.recipients.groups = groups
                 } else {
                     delete this.form.recipients.groups
@@ -162,10 +162,10 @@
 
         },
         watch: {
-            messageSent: {
+            messageIsSending: {
                 handler() {
                     this.reset()
-                    this.$store.commit("toggle_message_sent", false);
+                    this.$store.commit("toggle_message_is_sending", false);
                 }
             },
 
@@ -235,11 +235,10 @@
             ,
             loading() {
                 return this.$store.state.loading;
-            }
-            ,
-            messageSent() {
-                return this.$store.state.messages.sent;
-            }
+            },
+            messageIsSending() {
+                return this.$store.state.messages.isSending;
+            },
         }
     }
 

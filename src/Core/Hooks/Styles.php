@@ -1,12 +1,12 @@
 <?php
-/**
- * Created by Alabi Olawale
- * Date: 08/07/2020
- */
+	/**
+	 * Created by Alabi Olawale
+	 * Date: 08/07/2020
+	 */
 
-namespace AppsBay\Core\Hooks;
+	namespace AppsBay\Core\Hooks;
 
-use function AppsBay_Main_Config\config;
+	use function AppsBay_Main_Config\config;
 
 class Styles {
 	public static function load() {
